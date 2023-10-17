@@ -1,0 +1,58 @@
+.bgImage{
+    background-image: url("https://images.unsplash.com/photo-1578983662508-41895226ebfb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1822&q=80https://images.unsplash.com/photo-1578983662508-41895226ebfb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1822&q=80");
+    background-repeat: no-repeat;
+    height: 100vh;
+    z-index: 2;
+    width: 100%;
+}
+.class
+{
+    color : white
+}
+
+.container
+{
+    display: flex;
+}
+.list
+{
+    flex: 1;
+    padding: 0 3px;
+
+}
+.logos li{
+    display: flex;
+    padding-left: 29px;
+}
+
+.container2
+{
+    display: flex;
+}
+.list2
+{
+    flex: 1;
+    padding: 0 3px;
+}
+
+.chat-button {
+    position: fixed;
+    bottom: 20px; /* Adjust this value to position the button vertically */
+    right: 20px; /* Adjust this value to position the button horizontally */
+  }
+  
+  .chat-button-icon {
+    
+    color: rgb(3, 3, 3); /* Color of the chat icon */
+    border: none;
+    padding: 10px;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 0%;
+    
+  }
+   ion-card{
+    border:1px solid yellowgreen;
+
+  }
+  

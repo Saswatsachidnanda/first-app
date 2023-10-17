@@ -1,0 +1,340 @@
+<ion-header>
+  
+  <ion-toolbar>
+   
+    <ul style="list-style: none; display: flex; align-items: center; justify-content: space-around;">
+      <li style="cursor: pointer;">Home</li>
+      <li style="cursor: pointer;" >Products</li>
+      <li style="cursor: pointer;">About</li>
+      <li style="cursor: pointer;">Contact</li>
+      <li style="cursor: pointer;">My Cart</li>
+      <li style="cursor: pointer;">Track Order</li>
+      
+      <ion-searchbar placeholder="Search" style="width: 400px;"></ion-searchbar>
+    </ul>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row class="bgImage">
+    <ion-col size="12">
+        <h1><b style="color: rgb(236, 6, 6); font-size: 85px;">H&M</b></h1>
+        <h3><b style="color:red">Brighter than Ever</b></h3>
+        <ion-button href="" [routerLink]="['/jeans']" expand="block" fill="clear" shape="round">
+          Shop now</ion-button>
+        
+    </ion-col>
+   
+  </ion-row>
+  <ion-row style="align-items: center; justify-content: center;">
+    <ion-col size="5">
+      <img src="https://images.unsplash.com/photo-1604176354204-9268737828e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aCUyNm0lMjBqZWFuc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" height="1%" width="auto">
+    </ion-col>
+    <ion-col size="4">
+     
+      <div class="width: ion-text-center 300px; ">
+      <h1>Our Trending Jeans Collection</h1>
+      <p>Latest and widest variety of jeans</p>
+      <ion-button href="" [routerLink]="['/jeans']" expand="block" fill="clear" shape="round">
+        Shop now
+      </ion-button>
+    </div>
+  
+    </ion-col>
+  </ion-row>
+  <ion-grid fixed>
+  <ion-row style="align-items: center; justify-content: center;">
+    <ion-col size="6">
+      <div class="width: ion-text-center 300px;">
+      <h1>Our Trending and Quality Shirts</h1>
+      <p>Cool and Bold Shirts</p>
+      <ion-button href="" [routerLink]="['/shirts']" expand="block" fill="clear" shape="round">
+        Shop now
+      </ion-button>
+    </div>
+    </ion-col>
+    <ion-col size="5" style="width: 100%; height: auto;">
+      <img src="https://images.unsplash.com/photo-1626497764746-6dc36546b388?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2hpcnRzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
+    </ion-col>
+  </ion-row>
+
+
+<div class="container" style="width: 100%; max-width: 100%; height:100%;">
+  <ion-row>
+    <ion-col size="4">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title></ion-card-title>
+        </ion-card-header>
+        <ion-card-content style="height: auto; width: 80%;">
+          <img src="https://static.zara.net/photos///2023/I/0/2/p/6085/377/330/2/w/364/6085377330_2_1_1.jpg?ts=1691483159938" alt="" height="100%">
+          <p>We provide the best silk collection with good quality and vast variety</p>
+          <ion-button style="color:rgb(5, 5, 5)"  [routerLink]="['/shirts']">Search more</ion-button>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size="4">
+      <ion-card style="border: 1px solid goldenrod ; ">
+        <ion-card-header>
+          <ion-card-title></ion-card-title>
+        </ion-card-header>
+        <ion-card-content style="height: auto; width: 80%;">
+          <img src="https://static.zara.net/photos///2023/I/0/2/p/4387/350/804/2/w/364/4387350804_2_1_1.jpg?ts=1695371669021" alt="">
+          <p>As India is one of the biggest market of cotton across the world, we provide best quality of cotton with a vast variety</p>
+         
+         
+          <ion-button [routerLink]="['/shirts']">Search more</ion-button>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size="4">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title></ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <img src="https://static.zara.net/photos///2023/I/0/2/p/6529/400/727/2/w/364/6529400727_2_1_1.jpg?ts=1694180150877" alt="">
+          <p>Specially hand woven fabric with best quality and wide range of variery</p>
+        
+        <ion-button [routerLink]="['/shirts']">Search more</ion-button>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+</div>
+
+
+
+
+
+  <!--2nd collection list-->
+  <div class="container2" style="width: 100%; max-width: 100%; height:100%;">
+      <ion-row>
+    <ion-col size="4">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title></ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <img src="https://static.zara.net/photos///2023/I/0/2/p/0774/330/407/2/w/262/0774330407_15_1_1.jpg?ts=1689606583050" alt="">
+          <p>We provide the best silk collection with good quality and vast variety</p>
+          <ion-button [routerLink]="['/jeans']">Search more</ion-button>
+
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size="4">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title></ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <img src="https://static.zara.net/photos///2023/I/0/1/p/8062/475/800/2/w/262/8062475800_15_1_1.jpg?ts=1689612127717" alt="">
+          <p>As India is one of the biggest market of cotton across the world, we provide best quality of cotton with a vast variety</p>
+          
+          <ion-button [routerLink]="['/jeans']">Search more</ion-button>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size="4">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title></ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <img src="https://static.zara.net/photos///2023/I/0/2/p/8062/320/427/2/w/262/8062320427_15_1_1.jpg?ts=1695971084765" alt="">
+          <p>Specially hand woven fabric with best quality and wide range of variery</p>
+        
+        <ion-button [routerLink]="['/jeans']">Search more</ion-button>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</div>
+
+
+<!--3rd list-->
+<div class="container3" style="width: 100%; max-width: 100%; height:100%;">
+
+  <ion-row>
+    <ion-col size="4">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title></ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <img src="https://static.zara.net/photos///2023/I/0/2/p/4432/400/615/2/w/364/4432400615_2_1_1.jpg?ts=1695371204497" alt="">
+          <p>We provide the best silk collection with good quality and vast variety</p>
+          <ion-button style="color:rgb(5, 5, 5)" [routerLink]="['/jacket']">Search more</ion-button>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size="4">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title></ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <img src="https://static.zara.net/photos///2023/I/0/2/p/3286/505/712/2/w/364/3286505712_2_1_1.jpg?ts=1695371202932" alt="">
+          <p>As India is one of the biggest market of cotton across the world, we provide best quality of cotton with a vast variety</p>
+         
+         
+          <ion-button [routerLink]="['/jacket']">Search more</ion-button>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size="4">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title></ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <img src="https://static.zara.net/photos///2023/I/0/2/p/8281/845/401/2/w/364/8281845401_2_1_1.jpg?ts=1694681383301" alt="">
+          <p>Specially hand woven fabric with best quality and wide range of variery</p>
+        
+        <ion-button [routerLink]="['/jacket']">Search more</ion-button>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</div>
+
+
+<!--4th list-->
+<div class="container4" style="width: 100%; max-width: 100%; height:100%;">
+  <ion-row>
+    <ion-col size="4">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title></ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <img src="https://lp2.hm.com/hmgoepprod?set=source[/5e/d8/5ed8b27b211b6307819f4cd21835d3d3e416b5ea.jpg],origin[dam],category[kids_girls_clothing_trousersjeans_jeans_slim],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]" alt="">
+          <p>We provide the best silk collection with good quality and vast variety</p>
+          <ion-button >Search more</ion-button>
+
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size="4">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title></ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <img src="https://lp2.hm.com/hmgoepprod?set=source[/78/07/780706f9ffae71cf036c4c4b5bece363a82d9324.jpg],origin[dam],category[kids_boys_clothing_trousersjeans_joggerssweatpants],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]" alt="">
+          <p>As India is one of the biggest market of cotton across the world, we provide best quality of cotton with a vast variety</p>
+          
+          <ion-button>Search more</ion-button>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size="4">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title></ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <img src="https://lp2.hm.com/hmgoepprod?set=source[/c0/f7/c0f734a9bf6d8359753fe16f169af7b6bf9ae871.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]" alt="">
+          <p>Specially hand woven fabric with best quality and wide range of variery</p>
+        
+        <ion-button>Search more</ion-button>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+  </div>
+
+
+
+
+
+
+  <div class="container5">
+    <div class="list">
+  <ul style="list-style:none;" href="">HELP
+    <li style="cursor: pointer;">My account</li>
+    <li style="cursor: pointer;" >My orders</li>
+    <li style="cursor: pointer;">Payment and Invoices</li>
+    <li style="cursor: pointer;">Exchanges, returns and refunds</li>
+    <li style="cursor: pointer;">My Cart</li>
+    <li style="cursor: pointer;">Zara experience</li>
+  </ul>
+    </div>
+    <div class="list">
+  <ul style="list-style:none;" href="" class="logos">FOLLOW US
+    <li style="cursor: pointer; font-size: 20px;"><ion-icon name="logo-instagram"></ion-icon></li>
+    <li style="cursor: pointer;" ><ion-icon name="logo-facebook"></ion-icon></li>
+    <li style="cursor: pointer;"><ion-icon name="logo-youtube"></ion-icon></li>
+    <li style="cursor: pointer;"><ion-icon name="logo-pinterest"></ion-icon></li>
+    <li style="cursor: pointer;"><ion-icon name="logo-twitter"></ion-icon></li>
+  </ul>
+</div>
+<div class="list" href="">
+  <ul style="list-style:none;">COMPANY
+    <li style="cursor: pointer;">About us</li>
+    <li style="cursor: pointer;" >Join Life</li>
+    <li style="cursor: pointer;">Offices</li>
+    <li style="cursor: pointer;">Stores</li>
+    <li style="cursor: pointer;">Work with us</li>
+   </ul>
+</div> 
+<div class="list" href="">
+  <ul style="list-style:none;">POLICIES
+    <li style="cursor: pointer;">Privacy Policy</li>
+    <li style="cursor: pointer;" >Purchase Conditions</li>
+    <li style="cursor: pointer;">Gift card conditions</li>
+    <li style="cursor: pointer;">Cookies settings</li>
+   </ul>
+</div> 
+ </div>
+
+
+
+<div class="container6">
+  <div  href="" class="list2">
+    <ul style="list-style:none;">
+      <li style="cursor: pointer;">ZARA/EMBROIDERED POPLIN SHIRT - LIMITED EDITION</li>
+      <li style="cursor: pointer;" >INDIA</li>
+      </ul>
+  </div>
+        <div  href="" class="list2">
+        <ul style="list-style:none;">
+          <li style="cursor: pointer;">ENGLISH</li>
+          <li style="cursor: pointer;" >© ALL RIGHTS RESERVED</li>
+          </ul>
+        </div> 
+        </div>
+        
+        <div class="chat-button">
+          <ion-button class="chat-button-icon" [routerLink]="['/feedback']">
+            <ion-icon name="chatbubble"></ion-icon>
+            Feedback
+          </ion-button>
+        </div>
+      
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+ 
+
+
